@@ -51,8 +51,10 @@ value to be gained from being here, reading the material and looking at the
 code. After all, the main take-away is about comprehension, not coding.
 
 You will need to have a working Minikube environment, as well as Git and
-kubectl.
-TODO where to download and installation instructions.
+kubectl:
+
+> https://kubernetes.io/docs/tasks/tools/install-minikube/
+> https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
 ## Introduction to Operators
 
