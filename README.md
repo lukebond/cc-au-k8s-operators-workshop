@@ -346,7 +346,7 @@ logged by the operator, which is printed out in `Run()` in `controller.go`.
 First remove what we previously deployed so that we have a clean slate:
 
 ```
-$ kubectl delete deployment postgres-cluster
+$ kubectl delete deployment postgres-operator
 $ kubectl delete thirdpartyresources postgres-cluster.lukeb0nd.com
 ```
 
