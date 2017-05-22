@@ -158,7 +158,7 @@ running `minikube start`.
 Clone my Postgres operator codebase:
 
 ```
-$ git clone https://gitlab.com/lukebone/postgres-operator.git
+$ git clone https://gitlab.com/lukebond/postgres-operator.git
 ```
 
 Check that kubectl is pointing to your local cluster:
