@@ -355,9 +355,6 @@ Now deploy our new operator and then create a PostgresCluster:
 ```
 $ kubectl create -f kube/deployment.yaml
 deployment "postgres-operator" created
-$ kubectl get thirdpartyresources
-NAME                            DESCRIPTION                         VERSION(S)
-postgres-cluster.lukeb0nd.com   Semi-automatic PostgreSQL cluster   v1
 $ kubectl create -f kube/example-postgres-cluster.yaml
 postgrescluster "example-postgresql-cluster" created
 ```
