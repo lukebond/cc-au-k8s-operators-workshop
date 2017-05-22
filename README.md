@@ -457,7 +457,7 @@ Once you're ready to find out, delete the previous operator to start from a
 clean slate:
 
 ```
-$ kubectl delete deployment postgres-cluster
+$ kubectl delete deployment postgres-operator
 $ kubectl delete thirdpartyresources postgres-cluster.lukeb0nd.com
 ```
 
