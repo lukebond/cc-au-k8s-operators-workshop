@@ -193,7 +193,8 @@ ufs starting
 ^z
 $ bg
 $ minikube ssh
-  $ docker load -i /mount/9p/postgres-operator-workshop-01.tar
+$ chmod 666 /mount-9p/postgres-operator-workshop-01.tar
+$ docker load -i /mount-9p/postgres-operator-workshop-01.tar
 ```
 
 This will load your latest built image into the Docker daemon in Minikube.
